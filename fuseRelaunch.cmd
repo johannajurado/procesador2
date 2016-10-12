@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "H:/procesador_aleja/procesador_aleja/memInstrucciones_test_isim_beh.exe" -prj "H:/procesador_aleja/procesador_aleja/memInstrucciones_test_beh.prj" "work.memInstrucciones_test" 
