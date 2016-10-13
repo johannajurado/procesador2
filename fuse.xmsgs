@@ -5,13 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="439" delta="unknown" >"C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" Line 46: Formal port <arg fmt="%s" index="1">salida_mux</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">salida_mux</arg> of mode <arg fmt="%s" index="4">in</arg>
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.vhd" Line 166: Syntax error near &quot;<arg fmt="%s" index="1">crs1</arg>&quot;.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="439" delta="unknown" >"C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" Line 47: Formal port <arg fmt="%s" index="1">crs2</arg> of mode <arg fmt="%s" index="2">in</arg> cannot be associated with actual port <arg fmt="%s" index="3">crs2</arg> of mode <arg fmt="%s" index="4">out</arg>
+<msg type="error" file="HDLCompiler" num="806" delta="unknown" >"C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.vhd" Line 169: Syntax error near &quot;<arg fmt="%s" index="1">)</arg>&quot;.
 </msg>
 
-<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">test_mux</arg> in library <arg fmt="%s" index="2">work</arg> failed
+<msg type="error" file="HDLCompiler" num="432" delta="unknown" >"C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.vhd" Line 161: Formal &lt;<arg fmt="%s" index="1">rs1</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.vhd" Line 39: Unit &lt;<arg fmt="%s" index="1">arq_procesador</arg>&gt; ignored due to previous errors.
 </msg>
 
 </messages>
