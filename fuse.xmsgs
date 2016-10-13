@@ -5,11 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="432" delta="unknown" >"C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_RF.vhd" Line 37: Formal &lt;<arg fmt="%s" index="1">datawrite</arg>&gt; has no actual or default value.
-</msg>
-
-<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">test_procesadorfinal</arg> in library <arg fmt="%s" index="2">work</arg> failed
-</msg>
-
 </messages>
 
