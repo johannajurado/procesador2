@@ -222,17 +222,13 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1475977146" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1475977146">
+    <transform xil_pn:end_ts="1476337884" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1476337884">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476334172" xil_pn:in_ck="2888200540558332794" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476334172">
+    <transform xil_pn:end_ts="1476337885" xil_pn:in_ck="2888200540558332794" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476337884">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Alu.vhd"/>
       <outfile xil_pn:name="Alu_test.vhd"/>
       <outfile xil_pn:name="memInstrucciones_test.vhd"/>
@@ -254,29 +250,21 @@
       <outfile xil_pn:name="unidadControl.vhd"/>
       <outfile xil_pn:name="unidadControl_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1476331835" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="286034796095002479" xil_pn:start_ts="1476331835">
+    <transform xil_pn:end_ts="1476337885" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2935687413278565489" xil_pn:start_ts="1476337885">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1476331835" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5490080565308824369" xil_pn:start_ts="1476331835">
+    <transform xil_pn:end_ts="1476337885" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3356584807842630477" xil_pn:start_ts="1476337885">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1476331835" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6268951371048633804" xil_pn:start_ts="1476331835">
+    <transform xil_pn:end_ts="1476337885" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2202369714034815556" xil_pn:start_ts="1476337885">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1476331873" xil_pn:in_ck="2888200540558332794" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476331873">
+    <transform xil_pn:end_ts="1476337885" xil_pn:in_ck="2888200540558332794" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476337885">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Alu.vhd"/>
       <outfile xil_pn:name="Alu_test.vhd"/>
       <outfile xil_pn:name="memInstrucciones_test.vhd"/>
@@ -298,13 +286,9 @@
       <outfile xil_pn:name="unidadControl.vhd"/>
       <outfile xil_pn:name="unidadControl_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1476331876" xil_pn:in_ck="2888200540558332794" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7590210178289613984" xil_pn:start_ts="1476331873">
+    <transform xil_pn:end_ts="1476337888" xil_pn:in_ck="2888200540558332794" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6415798888630647396" xil_pn:start_ts="1476337885">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="InputChanged"/>
     </transform>
     <transform xil_pn:end_ts="1476331654" xil_pn:in_ck="3845107108807581363" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7283282794958628045" xil_pn:start_ts="1476331654">
       <status xil_pn:value="AbortedRun"/>
@@ -343,13 +327,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476334284" xil_pn:in_ck="4696096265136055651" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2426730275623512569" xil_pn:start_ts="1476334278">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1476337710" xil_pn:in_ck="4696096265136055651" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2426730275623512569" xil_pn:start_ts="1476337682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="PC.ngr"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
@@ -357,6 +338,7 @@
       <outfile xil_pn:name="procesador_finalaleja.ngc"/>
       <outfile xil_pn:name="procesador_finalaleja.ngr"/>
       <outfile xil_pn:name="procesador_finalaleja.prj"/>
+      <outfile xil_pn:name="procesador_finalaleja.stx"/>
       <outfile xil_pn:name="procesador_finalaleja.syr"/>
       <outfile xil_pn:name="procesador_finalaleja.xst"/>
       <outfile xil_pn:name="procesador_finalaleja_stx_beh.prj"/>

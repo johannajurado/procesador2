@@ -1,11 +1,19 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux_isim_beh.exe -prj C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux_beh.prj work.test_mux 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_procesadorfinal_isim_beh.exe -prj C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_procesadorfinal_beh.prj work.test_procesadorfinal 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/unidadControl.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/sumador.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/seu.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_RF.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/pc.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/nPC.vhd" into library work
 Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/muxx.vhd" into library work
-Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/memoriaInstrucciones.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/Alu.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/procesador_finalaleja.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_procesadorfinal.vhd" into library work
 Starting static elaboration
-ERROR:HDLCompiler:439 - "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" Line 46: Formal port salida_mux of mode out cannot be associated with actual port salida_mux of mode in
-ERROR:HDLCompiler:439 - "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" Line 47: Formal port crs2 of mode in cannot be associated with actual port crs2 of mode out
-ERROR:Simulator:777 - Static elaboration of top level VHDL design unit test_mux in library work failed
+ERROR:HDLCompiler:432 - "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_RF.vhd" Line 37: Formal <datawrite> has no actual or default value.
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit test_procesadorfinal in library work failed
