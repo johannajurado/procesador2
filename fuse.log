@@ -1,21 +1,11 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_test_isim_beh.exe -prj C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_test_beh.prj work.registroArchivo_test 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux_isim_beh.exe -prj C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux_beh.prj work.test_mux 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_RF.vhd" into library work
-Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_test.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/muxx.vhd" into library work
+Parsing VHDL file "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" into library work
 Starting static elaboration
-Completed static elaboration
-Compiling package standard
-Compiling package std_logic_1164
-Compiling package std_logic_arith
-Compiling package std_logic_unsigned
-Compiling architecture behavioral of entity registroArchivo_RF [registroarchivo_rf_default]
-Compiling architecture behavior of entity registroarchivo_test
-Time Resolution for simulation is 1ps.
-Waiting for 2 sub-compilation(s) to finish...
-Compiled 7 VHDL Units
-Built simulation executable C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/registroArchivo_test_isim_beh.exe
-Fuse Memory Usage: 32568 KB
-Fuse CPU Usage: 826 ms
+ERROR:HDLCompiler:439 - "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" Line 46: Formal port salida_mux of mode out cannot be associated with actual port salida_mux of mode in
+ERROR:HDLCompiler:439 - "C:/Users/Administrador/Desktop/procesador 2 aleja/procesador_aleja/test_mux.vhd" Line 47: Formal port crs2 of mode in cannot be associated with actual port crs2 of mode out
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit test_mux in library work failed
