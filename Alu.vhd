@@ -84,7 +84,7 @@ begin
          when "010100" => -- xorcc
 				salida_ALU <= entrada_suma1 or entrada_sum2;				
 				
-			when others => --nop
+			when others => --otras
 				salida_ALU <= (others=>'0');
 		end case;
 	end process; 
