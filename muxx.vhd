@@ -43,10 +43,10 @@ begin
 process(i,dato_seu,crs2)
 begin
 	if(i='1')then
-		salida_mux<= dato_seu;
+		salida_mux<= dato_seu;--si el inmediato es cero retorna el valor del register file
 	else 
 		if(i='0')then
-			salida_mux <= crs2;
+			salida_mux <= crs2;--si el valor es uno retorna el valor del SEU
 		end if ; 
 	end if; 	
 end process; 
