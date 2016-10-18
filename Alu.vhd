@@ -64,7 +64,7 @@ begin
          when "000001" => -- and
 				salida_ALU <= entrada_suma1 and entrada_sum2;
 			when "000101" => -- andn
-				salida_ALU <= entrada_suma1 and entrada_sum2;	
+				salida_ALU <= entrada_suma1 and not (entrada_sum2);	
 			when "010101" => --andNcc
 				salida_ALU <= entrada_suma1 and entrada_sum2;
 			when "010001" => --andcc
@@ -72,7 +72,7 @@ begin
          when "000010" => --or
 				salida_ALU <= entrada_suma1 or entrada_sum2;
 	      when "000110" => --orn
-				salida_ALU <= entrada_suma1 or entrada_sum2;	
+				salida_ALU <= entrada_suma1 or not (entrada_sum2);	
 	      when "010010" => --orcc
 				salida_ALU <= entrada_suma1 or entrada_sum2;				
 			when "010110" => --orNcc

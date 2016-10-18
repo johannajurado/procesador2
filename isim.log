@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\Downloads\Nueva carpeta\Procesador32bits\ProcesadorTB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Downloads/Nueva carpeta/Procesador32bits/ProcesadorTB_isim_beh.wdb 
+Running: D:\Desktop\procesador 2 final alejandra\procesador 2 aleja\procesador_aleja\test_procesadorfinal_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Desktop/procesador 2 final alejandra/procesador 2 aleja/procesador_aleja/test_procesadorfinal_isim_beh.wdb 
 ISim P.20131013 (signature 0x8ef4fb42)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -25,9 +25,13 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-at 0 ps, Instance /procesadortb/uut/Inst_Sumador/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 0 ps, Instance /procesadortb/uut/Inst_instructionMemory/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 0 ps, Instance /procesadortb/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 0 ps, Instance /procesadortb/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
-at 0 ps, Instance /procesadortb/uut/Inst_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_sumador/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_memoriaInstrucciones/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_registroArchivo_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_registroArchivo_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /test_procesadorfinal/uut/Inst_registroArchivo_RF/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 Finished circuit initialization process.
+ERROR: Index 32 out of bound 0 to 31. 
+ERROR: In process memoriaInstrucciones.vhd:62 
+ 
+INFO: Simulator is stopped.
