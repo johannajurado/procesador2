@@ -1,5 +1,5 @@
-set -tmpdir "I:/ARQUITECTURA DE COMPUTADORES/procesador 2/procesador 2 aleja/procesador_aleja/xst/projnav.tmp"
-set -xsthdpdir "I:/ARQUITECTURA DE COMPUTADORES/procesador 2/procesador 2 aleja/procesador_aleja/xst"
+set -tmpdir "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/xst/projnav.tmp"
+set -xsthdpdir "D:/Desktop/procesador 2 final/procesador 2 aleja/procesador_aleja/xst"
 elaborate
 -ifn Alu.prj
 -ifmt mixed

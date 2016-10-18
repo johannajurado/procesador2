@@ -75,9 +75,8 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="memInstrucciones_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="memInstrucciones_test_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="memInstrucciones_test_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="memInstrucciones_test_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="memoriaInstrucciones.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="memoriaInstrucciones.stx"/>
@@ -123,11 +122,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="procesador_finalaleja.unroutes" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="procesador_finalaleja.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="procesador_finalaleja.xst"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="procesador_finalaleja_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="procesador_finalaleja_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="procesador_finalaleja_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="procesador_finalaleja_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="procesador_finalaleja_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="procesador_finalaleja_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="procesador_finalaleja_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="procesador_finalaleja_map.ncd" xil_pn:subbranch="Map"/>
@@ -225,46 +222,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1476382248" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1476382248">
+    <transform xil_pn:end_ts="1476804106" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1476804106">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1476734870" xil_pn:in_ck="868191164823290849" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476734869">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Alu.vhd"/>
-      <outfile xil_pn:name="Alu_test.vhd"/>
-      <outfile xil_pn:name="memInstrucciones_test.vhd"/>
-      <outfile xil_pn:name="memoriaInstrucciones.vhd"/>
-      <outfile xil_pn:name="muxx.vhd"/>
-      <outfile xil_pn:name="nPC.vhd"/>
-      <outfile xil_pn:name="nPC_test.vhd"/>
-      <outfile xil_pn:name="procesador_finalaleja.vhd"/>
-      <outfile xil_pn:name="registroArchivo_RF.vhd"/>
-      <outfile xil_pn:name="registroArchivo_test.vhd"/>
-      <outfile xil_pn:name="seu.vhd"/>
-      <outfile xil_pn:name="sumador.vhd"/>
-      <outfile xil_pn:name="sumador_test.vhd"/>
-      <outfile xil_pn:name="test_mux.vhd"/>
-      <outfile xil_pn:name="test_procesadorfinal.vhd"/>
-      <outfile xil_pn:name="test_seu.vhd"/>
-      <outfile xil_pn:name="unidadControl.vhd"/>
-      <outfile xil_pn:name="unidadControl_test.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1476734874" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2935687413278565489" xil_pn:start_ts="1476734874">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1476734874" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3356584807842630477" xil_pn:start_ts="1476734874">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1476382248" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2202369714034815556" xil_pn:start_ts="1476382248">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1476734874" xil_pn:in_ck="868191164823290849" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476734874">
+    <transform xil_pn:end_ts="1476805459" xil_pn:in_ck="868191164823290849" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1476805458">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Alu.vhd"/>
@@ -286,19 +248,59 @@
       <outfile xil_pn:name="unidadControl.vhd"/>
       <outfile xil_pn:name="unidadControl_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1476734882" xil_pn:in_ck="868191164823290849" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6415798888630647396" xil_pn:start_ts="1476734874">
+    <transform xil_pn:end_ts="1476804608" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2935687413278565489" xil_pn:start_ts="1476804608">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476804608" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3356584807842630477" xil_pn:start_ts="1476804608">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476804106" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2202369714034815556" xil_pn:start_ts="1476804106">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1476805464" xil_pn:in_ck="868191164823290849" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1476805464">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Alu.vhd"/>
+      <outfile xil_pn:name="Alu_test.vhd"/>
+      <outfile xil_pn:name="memInstrucciones_test.vhd"/>
+      <outfile xil_pn:name="memoriaInstrucciones.vhd"/>
+      <outfile xil_pn:name="muxx.vhd"/>
+      <outfile xil_pn:name="nPC.vhd"/>
+      <outfile xil_pn:name="nPC_test.vhd"/>
+      <outfile xil_pn:name="procesador_finalaleja.vhd"/>
+      <outfile xil_pn:name="registroArchivo_RF.vhd"/>
+      <outfile xil_pn:name="registroArchivo_test.vhd"/>
+      <outfile xil_pn:name="seu.vhd"/>
+      <outfile xil_pn:name="sumador.vhd"/>
+      <outfile xil_pn:name="sumador_test.vhd"/>
+      <outfile xil_pn:name="test_mux.vhd"/>
+      <outfile xil_pn:name="test_procesadorfinal.vhd"/>
+      <outfile xil_pn:name="test_seu.vhd"/>
+      <outfile xil_pn:name="unidadControl.vhd"/>
+      <outfile xil_pn:name="unidadControl_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1476805473" xil_pn:in_ck="868191164823290849" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6415798888630647396" xil_pn:start_ts="1476805464">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="test_procesadorfinal_beh.prj"/>
       <outfile xil_pn:name="test_procesadorfinal_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1476734883" xil_pn:in_ck="7371801435408709370" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1870385928689748911" xil_pn:start_ts="1476734882">
+    <transform xil_pn:end_ts="1476805474" xil_pn:in_ck="7371801435408709370" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1870385928689748911" xil_pn:start_ts="1476805473">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="test_procesadorfinal_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1475976739" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1475976739">
@@ -337,6 +339,7 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="procesador_finalaleja.lso"/>
@@ -346,7 +349,6 @@
       <outfile xil_pn:name="procesador_finalaleja.stx"/>
       <outfile xil_pn:name="procesador_finalaleja.syr"/>
       <outfile xil_pn:name="procesador_finalaleja.xst"/>
-      <outfile xil_pn:name="procesador_finalaleja_beh.prj"/>
       <outfile xil_pn:name="procesador_finalaleja_stx_beh.prj"/>
       <outfile xil_pn:name="procesador_finalaleja_vhdl.prj"/>
       <outfile xil_pn:name="procesador_finalaleja_xst.xrpt"/>
